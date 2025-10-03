@@ -1,0 +1,6 @@
+- name: Checkout repo
+  uses: actions/checkout@v4
+  with:
+    repository: smartcontractkit/chainlink
+    token: ${{ secrets.PAT_TOKEN }}
+    fetch-depth: 0
